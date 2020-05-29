@@ -1,10 +1,10 @@
 // god i need a nap
 // make it rain
 
-(function carousel(d) {
+!(function carousel(d) {
     let images = "carousel__photo";
     let itemsArray = d.getElementsByClassName(images);
-    let totalItems = items.length;
+    let totalItems = itemsArray.length;
     let slide = 0;
     let moving = true;
 
@@ -12,7 +12,8 @@
     // Set classes
     function setInitialClasses() {
         // Targets the previous, current, and next items
-        // This assumes there are at least three items.  items[totalItems - 1].classList.add("prev");
+        // This assumes there are at least three items.
+        itemsArray[totalItems - 1].classList.add("prev");
         itemsArray[0].classList.add("active");
         itemsArray[1].classList.add("next");
     }// Set event listeners
