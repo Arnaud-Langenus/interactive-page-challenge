@@ -15,3 +15,9 @@ OUR CATS
 
 PAGE
 Our pet cats are the perfect mix between cute and heroin chic. Our you foaming at the mouth to adopt? Take a look at our first batch!
+
+TAB
+Workout with your cat!
+
+PAGE
+Working out with your cat is the perfect way to attract attention. People like cats, people like abs! Why not combine the two? Break the internet like Kim with a Kitten on your glutes.
