@@ -14,30 +14,20 @@ body {
   margin: 0 auto;
   background-color: #FF3E00; }
   body * {
-    background-color: #FF3E00; }
+    background-color: #FF3E00;
+    font-family: 'Noto Sans JP', sans-serif; }
+
+.nav-link {
+  text-decoration: none;
+  color: #00FFC4;
+  font-size: 1.2rem;
+  font-weight: bold; }
 
 #dourLogo {
   position: absolute;
   overflow: hidden;
   height: 15%;
   max-width: auto; }
-
-.tab-container > .card {
-  height: 50%;
-  width: 100%;
-  margin: 0 auto;
-  border: none; }
-
-.button-row {
-  margin: 0 auto; }
-  .button-row .button {
-    border-color: #B32D00;
-    border-bottom: none;
-    background-color: #B32D00;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    min-width: 25%;
-    color: white; }
 
 .carousel-wrapper {
   overflow: hidden;
@@ -103,5 +93,23 @@ body {
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg); }
+
+.tab-container > .card {
+  height: 50%;
+  width: 100%;
+  margin: 0 auto;
+  border: none; }
+
+.button-row {
+  margin: 0 auto; }
+  .button-row .button {
+    border-color: #B32D00;
+    border-bottom: none;
+    border-right: none;
+    background-color: #B32D00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-width: 25%;
+    color: white; }
 
 /*# sourceMappingURL=stylesheet.css.map */
