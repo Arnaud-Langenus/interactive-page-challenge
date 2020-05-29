@@ -4,21 +4,26 @@
   padding: 0;
 }
 
-body {
+
+html, body {
   height: 100%;
 }
 #dourLogo {
   position: absolute;
   overflow: hidden;
-  max-height: 20%;
+  height: 15%;
   max-width: auto;
 }
 
-.navbar {
-  -webkit-box-shadow: 0 8px 6px -6px black;
-  -moz-box-shadow: 0 8px 6px -6px black;
-  box-shadow: 0 8px 6px -6px black;
+.button {
+  border-bottom:none;
+  background-color: #FF2500;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  min-width: 25%;
 }
+
+
 
 // Carousel content //
 .carousel-wrapper {

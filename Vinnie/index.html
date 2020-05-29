@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body class="d-block">
 
@@ -17,7 +18,8 @@
              src="../img/logo.png"
              style="max-width: 20%; " alt="">
     </a>
-    <button class="navbar-toggler btn btn-warning d-inline-flex" type="button" data-toggle="collapse" data-target="#collapseNav"
+    <button class="navbar-toggler btn btn-warning d-inline-flex" type="button" data-toggle="collapse"
+            data-target="#collapseNav"
             aria-controls="collapseNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -49,13 +51,32 @@
         <img class="carousel__photo" src="">
         <img class="carousel__photo" src="">
 
-
         <div class="carousel__button--next"></div>
         <div class="carousel__button--prev"></div>
     </div>
 </div>
 
-
+<div class="d-blok tab-container h-50">
+    <div class="button-row row d-flex justify-content-between w-75">
+        <button class="button btablink col-md-2" onclick="openCity('tab-1', this)" id="defaultOpen">Wat</button>
+        <button class="button tablink col-md-2" onclick="openCity('tab-2', this )"> Hoe </button>
+        <button class=" button tablink col-md-2" onclick="openCity('tab-3', this)"> Waarom</button>
+    </div>
+    <div class="card w-75">
+        <div id="tab-1" class="info-tab">
+            <h2></h2>
+            <p></p>
+        </div>
+        <div id="tab-2" class="info-tab">
+            <h2></h2>
+            <p></p>
+        </div>
+        <div id="tab-3" class="info-tab">
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
