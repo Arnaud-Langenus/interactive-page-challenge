@@ -8,6 +8,20 @@
 html, body {
   height: 100%;
 }
+
+html {
+  background-color: #00FFC4;
+}
+
+body {
+  * {
+    background-color: #FF3E00;
+
+  }
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FF3E00;
+}
 #dourLogo {
   position: absolute;
   overflow: hidden;
@@ -15,12 +29,25 @@ html, body {
   max-width: auto;
 }
 
-.button {
-  border-bottom:none;
-  background-color: #FF2500;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  min-width: 25%;
+.tab-container> .card {
+  height: 50%;
+  width: 100%;
+  margin: 0 auto;
+  border:none;
+
+}
+
+.button-row {
+  .button {
+    border-color:#B32D00;
+    border-bottom: none;
+    background-color: #B32D00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-width: 25%;
+    color: white;
+  }
+  margin: 0 auto;
 }
 
 
