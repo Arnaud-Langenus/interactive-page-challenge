@@ -7,7 +7,7 @@ html, body {
   height: 100%; }
 
 html {
-  background-color: #00FFC4; }
+  background-color: #e5e5e5; }
 
 body {
   width: 80%;
@@ -17,17 +17,27 @@ body {
     background-color: #FF3E00;
     font-family: 'Noto Sans JP', sans-serif; }
 
+#title {
+  font-family: 'Piedra', cursive;
+  font-size: 1.5em;
+  color: #e5e5e5; }
+
+#title:hover {
+  color: black; }
+
 .nav-link {
   text-decoration: none;
-  color: #00FFC4;
+  color: #e5e5e5;
   font-size: 1.2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 0.6rem; }
 
-#dourLogo {
-  position: absolute;
-  overflow: hidden;
-  height: 15%;
-  max-width: auto; }
+.nav-link:hover {
+  color: black; }
+
+#catLogo {
+  width: 20%;
+  length: auto; }
 
 .carousel-wrapper {
   overflow: hidden;
@@ -36,7 +46,8 @@ body {
     box-sizing: border-box; }
 
 .carousel {
-  transform-style: preserve-3d; }
+  transform-style: preserve-3d;
+  margin: 0 15px; }
 
 .carousel__photo {
   opacity: 0;
@@ -62,8 +73,8 @@ body {
 .carousel__button--next {
   position: absolute;
   top: 50%;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   background-color: #FFF;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -93,6 +104,10 @@ body {
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg); }
+
+[class*="carousel__button"] {
+  border-style: none;
+  background-color: #e5e5e5; }
 
 .tab-container > .card {
   height: 50%;

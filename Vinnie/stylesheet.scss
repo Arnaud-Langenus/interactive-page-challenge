@@ -9,7 +9,7 @@ html, body {
 }
 
 html {
-  background-color: #00FFC4;
+  background-color: #e5e5e5;
 }
 
 body {
@@ -23,21 +23,30 @@ body {
   background-color: #FF3E00;
 }
 // nav header//
+#title {
+  font-family: 'Piedra', cursive;
+  font-size: 1.5em;
+  color: #e5e5e5;
+
+}
+#title:hover {
+  color: black;
+}
 
 .nav-link {
   text-decoration: none;
-  color: #00FFC4;
+  color: #e5e5e5;
   font-size: 1.2rem;
   font-weight: bold;
-
+  margin-bottom: 0.6rem;
+}
+.nav-link:hover {
+  color: black;
 }
 
-
-#dourLogo {
-  position: absolute;
-  overflow: hidden;
-  height: 15%;
-  max-width: auto;
+#catLogo {
+  width: 20%;
+  length: auto;
 }
 
 // Carousel content //
@@ -45,13 +54,13 @@ body {
   * {
   box-sizing: border-box;
   }
-
   overflow: hidden;
   width: 90%;
 }
 
 .carousel {
   transform-style: preserve-3d;
+  margin: 0 15px;
 }
 
 .carousel__photo {
@@ -80,8 +89,8 @@ body {
 .carousel__button--next {
   position: absolute;
   top:50%;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   background-color: #FFF;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -110,6 +119,11 @@ body {
 .carousel__button--next::after {
   left: 47%;
   transform: translate(-50%, -50%) rotate(-45deg);
+}
+[class*="carousel__button"] {
+  border-style: none;
+  background-color: #e5e5e5;
+
 }
 
 // tab box //
