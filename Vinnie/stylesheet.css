@@ -107,7 +107,8 @@ body {
 
 [class*="carousel__button"] {
   border-style: none;
-  background-color: #e5e5e5; }
+  background-color: #e5e5e5;
+  border-radius: 10px; }
 
 .tab-container > .card {
   height: 50%;
@@ -126,5 +127,8 @@ body {
     border-top-right-radius: 10px;
     min-width: 25%;
     color: white; }
+
+.button:hover {
+  background-color: #ffae19; }
 
 /*# sourceMappingURL=stylesheet.css.map */
